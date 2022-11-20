@@ -42,8 +42,8 @@ function NavBar(props) {
        return (
         <>
         {showAddDone? <div className='adding-div'>
-                                Adding a New Album Completed
-                                <button onClick={handleChangeOk}>OK</button>
+                            Adding a New Album Completed
+                            <button onClick={handleChangeOk}>OK</button>
                       </div>
                     : <button onClick={e=>setShowAddForm(true)}> ADD New Album</button>}
         </>

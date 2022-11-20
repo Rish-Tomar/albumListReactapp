@@ -5,6 +5,8 @@ import { deleteRecord, editAlbumRecord } from '../actions/album'
 import '../styles/albumCard.css'
 
 function AlbumCardFunctional(props) {
+  
+  //declaring usestate varibles and iniatialising
   const {card}=props
   const [showEditForm, setShowEditForm] = useState(false)
   const [showCard, setShowCard]         = useState(true)
